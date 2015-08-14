@@ -1,0 +1,370 @@
+*{margin:0;padding:0;}
+body{
+	background-color:#ddd;
+}
+#head1{
+	background:url(images/background.png) repeat;
+	padding:0;
+	margin:0;
+	height:auto;
+}
+.header-body{
+	background:url(images/background.png);
+	height:auto;
+}
+.navbar-default{
+	background:url(images/background.png);
+	border: none;
+}
+.mainmenu{
+	float:right;
+}
+.mainmenu {
+    margin: 60px 0 -2px;
+	padding:20px 20px 20px;
+}
+.submenu1{
+    background-color: #C9560A;
+    margin: 8px;
+    padding: 3px 12px;
+}
+.submenu1 a{
+	color:#F9EEEB;
+	font-size:20px;
+}
+.submenu2{
+    background-color: #3E2718;
+    margin: 8px;
+    padding: 3px 8px;
+}
+.submenu2 a{
+	color:#F9EEEB;
+	font-size:20px;
+}
+.mainmenu li{
+	display:inline;
+}
+.header img{	
+}
+.first-row {
+     margin: -120px 11px 0
+}
+.first-row img {
+    margin: 0 120px;
+    width: 60%;
+}
+.second-row{
+    padding: 50px 0 100px;
+}
+.second-row h2{
+	font-size:35px;
+	color:#fff;
+	text-shadow:2px 2px 2px #ff0000;
+}
+.second-row p{
+	font-size:18px;
+	color:#fff;
+}
+.main-body{
+	width:1060px;
+	height:auto;
+	margin:0px auto;
+	background-color:#fff;
+
+}
+.sports{
+	background-color:#fff;
+	width:85%;
+	height:auto;
+	margin:0px auto;
+	margin-bottom:5px;
+	margin-top:-40px;
+}
+.athlet-text  h2 {
+    padding: 25px 0;
+}
+.colon{
+	width:10%;
+	float:left;
+}
+.colon img {
+    float: left;
+    width: 90%;
+}
+.testimonial h2{
+	 padding: 25px 0;
+}
+.text p {
+    margin: 0 10px 20px;
+}
+.text{
+	float:left;
+}
+
+.menubar .m-home a {
+    padding: 10px 29px;
+}
+.row-training img{
+	width:90px;
+	margin:0 auto;
+}
+.row-training h5{
+	text-align:center;
+}
+.athlets-text h2{
+	text-shadow:0 0 1px #0f0f0f;
+ }
+.row-athlet img{
+	width:180px;
+	padding:15px;
+	margin:0 auto;
+}
+.row-testimonial h2{
+		text-shadow:0 0 1px #0f0f0f;
+}
+.test{
+	font-size:20px;
+	margin-bottom
+}
+.text {
+    width: 85%;
+	border-bottom:1px solid #ddd;
+	margin-bottom:15px;
+}
+.video{
+	margin-bottom:40px;
+}
+.upper{
+	background-color:#FF6600;	
+}
+.address{
+	color:#fff;
+	text-align:left;
+}
+.address  h3 {
+    font-size: 30px;
+    line-height: 44px;
+}
+.address h5{
+	color:#000;
+	font-size:20px;
+}
+.trainer  h4 {
+    line-height: 2px;
+}
+.query h3{
+	font-size:30px;
+	color:#fff;
+}
+.form-horizontal {
+	margin-bottom: 30px;
+	color:#ff6600;
+}
+.form-horizontal input{
+	margin:0 0 10px 0;
+	color:#FF9B59;
+}
+.mainfooter{
+	background-color:#333333;
+	padding:10px;
+	
+}
+.mainfooter h4{
+	color:#fff;
+	text-align:center;
+	font-weight:normal;
+}
+#footer{
+	margin:0;
+	padding:0;
+}
+
+@media (max-width: 1200px) {
+.first-row {
+    margin: -133px -65px 0;
+}
+.sports {
+    background-color: #fff;
+    height: auto;
+    margin: -40px auto 57px;
+    width: 95%;
+}
+}
+@media (max-width: 991px) {
+.first-row {
+    margin: -89px -63px 0;
+}
+.submenu1{
+    background-color: #C9560A;
+    margin: 5px;
+    padding: 3px 6px;
+}
+.submenu1 a{
+	color:#F9EEEB;
+	font-size:17px;
+}
+.submenu2{
+    background-color: #3E2718;
+    margin: 5px;
+    padding: 3px 6px;
+}
+.submenu a{
+	color:#F9EEEB;
+	font-size:17px;
+}
+.sports {
+    background-color: #fff;
+    height: auto;
+    margin: -40px auto 57px;
+    width: 95%;
+}
+.second-row {
+    margin-bottom: 56px;
+	text-align:center;
+	height:auto;
+}
+.second-row h2{
+}
+.second-row {
+    padding: 1px 0 0;
+}
+.text p {
+    font-size: 18px;
+    text-align: justify;
+}
+.second-row p{
+	text-align: -moz-center;
+	margin-right:20px;
+}
+.sports{
+	margin:-40px auto 0px;
+}
+.form-horizontal {
+    margin-right: 20px;
+}
+.inquirie {
+    margin: 24px 0 6px;
+}
+.address {
+    padding: 0;
+}
+.query h3 {
+    margin: 0;
+    padding: 0;
+}
+.video {
+    margin-bottom: 35px;
+}
+}
+@media (max-width: 767px) {
+
+.first-row {
+    margin: -45px 11px 0;
+}
+.mainmenu li {
+    display: block;
+}
+.athlet-text {
+    text-align: center;
+}
+.row-athlets {
+    text-align: center;
+}
+.row-testimonial {
+    text-align: justify;
+}
+.row-testimonial h2 {
+    text-align: center;
+}
+.athlet-text{
+	text-align: center;
+}
+.second-row h2{
+	text-align:center;
+}
+.second-row  p {
+    text-align: center;
+	width:auto;
+	font-size:16px;
+}
+.second-row {
+    padding: 0;
+}
+.address{
+	text-align:center;
+}
+.text p{
+	font-size: 16px;
+}
+.sports {
+    margin-bottom: 10px;
+}
+
+.form-horizontal {
+    margin-left: 60px;
+    width: 84%;
+}
+.query h3{
+	text-align:center;
+}
+.video {
+    margin-bottom: 30px;
+}
+}
+
+@media (max-width: 480px ) {
+.first-row img{
+	margin-left:0;
+}
+.first-row {
+    margin: -45px 11px 0;
+}
+.mainmenu li {
+    display: block;
+}
+.second-row p {
+    height: auto;
+    padding: 2px 8px 0;
+    text-align: center;
+    width: auto;
+}
+.second-row {
+    margin: 5px;
+    height: auto;
+}
+.second-row {
+    padding: 0 0 15px;
+}
+.second-row h2{
+	text-align:center;
+}
+.menubar ul li{
+	padding:2px;
+}
+.menubar ul li a{
+	font-size:16px;
+}
+.address{
+	text-align:center;
+}
+.athlet-text h2{
+	 text-align: center;
+}
+.row-athlet {
+    text-align: center;
+}
+.video {
+	 margin: 0 auto;
+}
+.form-horizontal {
+    margin: 0 auto;
+}
+.query h3{
+	text-align:center;
+}
+.sports{
+	margin-bottom:0 auto;
+	margin:0 auto;
+}
+}
+
